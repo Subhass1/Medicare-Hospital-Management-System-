@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!--__________________Link adding_______________________--->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--__________________Font Awesome Link_________________-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--_____________________________________________________ 
+                    Our Admin navbar Sectionn
+        ______________________________________________________ -->
+    <header class="admin_dashboard">
+        <div class="admin-container">
+            <div class="dashboard">
+                <img src="../images/logo.png" alt="logo" /> </a>
+                <span>Medicare.</span>
+            </div>
+
+
+            <nav class="admin-navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> patients </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Appointements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Mailbox</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="notification">
+                <div class="main-content">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="admin-name">
+                        <img src="../images/doctors.png" alt="">
+                        <p>Subhash Yadav</p>
+                    </div>
+                </div>
+
+                <div class="admin-post">
+                    <span>Owner of medicare</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--_____________________________________________________ 
+                    Our 2nd navbar Sectionn
+        ______________________________________________________ -->
+
+    <div class="second-navbar">
+        <div class="navbar2-content">
+            <h1>Welcome Subhash 👋</h1>
+            <p>Patient reports here always update in real time</p>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search anything here...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="week-data">
+            <p>Week</p>
+            <i class="fa-solid fa-greater-than"></i>
+        </div>
+
+        <div class="export-btn">
+            <i class="fa-solid fa-file-export"></i>
+            <a href="#" class="btn1 btn-white">Export</a>
+        </div>
+
+
+    </div>
+
+    <!--_____________________________________________________ 
+                    Our Record Section
+        ______________________________________________________ -->
+ 
+    <section class="statices-section">
+        <div class="stats-section">
+            <div class="stat-card">
+                <h2>Total Patient</h2>
+                <p>3641 <span>+10.78%</span></p>
+                <p>Patients have visited within the past week</p>
+            </div>
+            <div class="stat-card">
+                <h2>Consultancy</h2>
+                <p>3641 <span>+10.78%</span></p>
+                <p>Patients who consulted within the past week</p>
+            </div>
+            <div class="stat-card">
+                <h2>Patient Statistics</h2>
+                <p>12,645 <span>+10.78%</span></p>
+                <div class="chart">
+                    <!-- Placeholder for chart -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--_____________________________________________________ 
+                    Our Appointement Section
+        ______________________________________________________ -->
+    <section class="appointments-section">
+        <h2>All Appointments</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Assigned Doctor</th>
+                    <th>Patient </th>
+                    <th>Date</th>
+                    <th>Disease</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dr. Smile Thapa</td>
+                    <td>Laxman Saud</td>
+                    <td>18/04/2023</td>
+                    <td>Fever</td>
+                    <td>Confirmed</td>
+                </tr>
+                <tr>
+                    <td> Dr.Ishak Gurung</td>
+                    <td>Aadash Khadaka</td>
+                    <td>18/04/2023</td>
+                    <td>Toothache</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Dr. kalon Bhattarai</td>
+                    <td>Ram sah</td>
+                    <td>16/04/2023</td>
+                    <td>Kidney</td>
+                    <td>Booked</td>
+                </tr>
+                <tr>
+                    <td>Dr.Sushant Tamang</td>
+                    <td>Riya singh</td>
+                    <td>14/04/2023</td>
+                    <td>Tubercolosis</td>
+                    <td>Uploaded</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+<!--_____________________________________________________ 
+                    Our Doctor-list Section
+        ______________________________________________________ -->
+    <section class="doctor-list-section">
+        <h2>Doctor List</h2>
+        <div class="doctor-list">
+            <div class="shift-card">
+                <h3>Morning Shift</h3>
+                <p>6:00 AM - 5:00 PM</p>
+                <p>Available to consult</p>
+            </div>
+            <div class="shift-card">
+                <h3>Evening Shift</h3>
+                <p>5:00 PM - 6:00 AM</p>
+                <p>Unavailable to consult</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

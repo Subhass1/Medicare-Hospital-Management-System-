@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <style>body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f4ff;
+        margin: 0;
+    }
+    
+    .form-container {
+        display: flex;
+        gap: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-container input,
+    .form-container select {
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .form-container button {
+        background-color: #0066ff;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .form-container button:hover {
+        background-color: #0052cc;
+    }
+    </style>
+    <div class="form-container">
+        <input type="text" placeholder="Full Name">
+        <select>
+            <option value="" disabled selected>Select Doctor</option>
+            <option value="doctor1">Doctor 1</option>
+            <option value="doctor2">Doctor 2</option>
+        </select>
+        <select>
+            <option value="" disabled selected>Select Department</option>
+            <option value="department1">Department 1</option>
+            <option value="department2">Department 2</option>
+        </select>
+        <button>Submit Now</button>
+    </div>
+</body>
+</html>

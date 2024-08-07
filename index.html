@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicare</title>
+  <!--__________________Link adding_______________________--->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!--__________________Font Awesome Link_________________-- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- _______________________bootstrap Link____________________ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <!--_____________________________________________________ 
+                    Our Header Sectionn
+        ______________________________________________________ -->
+
+  <header class="section-navbar">
+    <div class="container">
+
+      <div class="navbar">
+        <a href="index.html">
+          <img src="./images/logo.png" alt="Medicare" /> </a>
+        <span>Medicare.</span>
+      </div>
+
+      <nav class="navbar"  id="navbar">
+        <ul class="navlist" id="navlist">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services"> services </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#department"> Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#doctor-section"> Doctors</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="contact.html"> contact </a> -->
+            <!-- section-contact--homepage -->
+            <a class="nav-link" href="#contact"> contact </a>
+
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-btn">
+        <a href="signup.html" class="btn1 btn-white">Sign Up</a>
+        <a href="login.html" class="btn1 btn-white">Login In</a>
+      </div>
+
+     
+
+    </div>
+    </div>
+  </header>
+
+
+  <!-- _____________________________________________________ 
+                    Our Home Section
+        ______________________________________________________ -->
+
+  <main>
+    <div class="section-home" id="home">
+
+      <div class="container grid grid-two--cols">
+
+
+        <div class="section-home--content">
+          <p class="home-subheading">The best medicine and the best treatment you can get.</p>
+          <h1 class="home-heading"> Get better care for your health </h1>
+
+          <p class="home-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+          </p>
+
+          <div class="home-btn">
+            <a href="#" class="btn1 btn-white">Know More</a>
+          </div>
+        </div>
+
+
+        <div class="section-home--image" data-aos="fade-up">
+          <figure>
+            <img src="./images/hospital.png" alt="a 3d character of hospital " />
+          </figure>
+        </div>
+
+        <!-- <div class="service-img">
+          <div class="glowing-circle">
+              <span></span>
+              <span></span>  
+              <div class="image">
+                  <img src="images/doctors_1.jpg">
+              </div>
+          </div>
+      </div> -->
+
+
+      </div>
+
+      <div class="form-container">
+        <input type="text" placeholder="Full Name">
+        <select>
+            <option value="" disabled selected>Select Doctor</option>
+            <option value="doctor1">Doctor 1</option>
+            <option value="doctor2">Doctor 2</option>
+        </select>
+        <select>
+            <option value="" disabled selected>Select Department</option>
+            <option value="department1">Department 1</option>
+            <option value="department2">Department 2</option>
+        </select>
+        <!-- <button>Submit Now</button> -->
+         <a href="#" class="btn1">Book Now</a>
+    </div>
+      
+    </div>
+
+
+
+    <!--****************** The design are taken from shape divider *************************-->
+
+    <div class="custom-shape-divider-bottom-1696162272">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25" class="shape-fill"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5" class="shape-fill"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+
+  </main>
+
+  <!-- _____________________________________________________ 
+                    Our About Us Section 
+        ______________________________________________________ -->
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-common-heading">About Us</h2>
+      <p class="section-common-subheading">
+        We are specialize in Medical Diagnositics.
+      </p>
+
+
+      <div class="container grid grid-two--cols">
+
+        <div class="img-about">
+          <img src="images/doctors.png" alt="">
+          <div class="info-about1">
+            <i class="fa-solid fa-user-doctor"></i>
+            <span>500+</span>
+            <p>Doctors at work</p>
+          </div>
+
+          <div class="info-about2">
+            <i class="fa-solid fa-person"></i>
+            <span>78396+</span>
+            <p>Happy patients</p>
+          </div>
+
+          <div class="info-about3">
+            <i class="fa-solid fa-bed"></i>
+            <span>500+</span>
+            <p>Medical Beds</p>
+          </div>
+        </div>
+
+        <div class="visible-paragraph">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+
+          <div class="about-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+          <!--  -->
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- _____________________________________________________ 
+                    Our Services Section 
+        ______________________________________________________ -->
+  <section class="section-why--choose" id="services">
+    <div class="container">
+      <h2 class="section-common-heading">Why Choose Medicare?</h2>
+      <p class="section-common-subheading">
+        Our reputation for outstanding care and family-like atmosphere, together with advanced medical technology and
+        facilities ensures we attract leading consultants and specialists from the industry to work with us. All our
+        clinicians are board-certified and come with very high credentials within their field of speciality. Many of our
+        consultant doctors are internationally recognised as well. Whilst practicing at our facilities, our consultants
+        comply with Clinical Governance system that ensures adequate patient care. All our nurses are fully qualified
+        and registered with the Nursing Council
+      </p>
+
+
+    </div>
+
+    <div class="container grid grid-three--cols">
+      <div class="choose-left--div text-align--right">
+
+        <div class="why-choose--div">
+          <p class="common-text--highlight">1</p>
+          <h3 class="section-common--title">Emergency services</h3>
+          <p>
+            Emergencies are unexpected and serious situations and require immediate expert attention.
+            <!-- Our emergency
+                  services ensure the highest levels of expertise, skill, and infrastructure. -->
+            <!-- Our medical protocols have beenhoned over years of experience and have been set up to respond faster with proven results that are on par
+                  with the best medical services in the world. We utilize our multi-specialty capabilities to efficiently
+                  handle a myriad of medical complications associated with emergencies.  -->
+          </p>
+
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+        <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="300">
+          <p class="common-text--highlight">2</p>
+          <h3 class="section-common--title">24*7 Pharmacy</h3>
+          <p>
+            Medication is one of the most essential parts of any successful treatment.
+            <!-- It is necessary for a patient to
+                  take the prescribed medication at the correct dose on time as advised by the doctor.  -->
+            <!-- This is particularly
+                  crucial when a patient is fighting a severe health condition. -->
+
+            <!-- What happens if you find yourself with inadequate medication at short notice or in an emergency? Medicare
+                  Hospitals understand the need for prompt pharmaceutical care. We understand how critical timely access to
+                  medicines can be, and we ensure that you have this access at all times with our 24×7 pharmacies. -->
+          </p>
+
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+        <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="600">
+          <p class="common-text--highlight">3</p>
+          <h3 class="section-common--title">Home HealthCare</h3>
+          <p>
+            Our home healthcare service provides home-bound patients with the same high-quality care and expertise that
+            they expect from a leading hospital such as Sagar Hospital.
+            <!-- Our specialist medical services are designed to
+                  provide comprehensive support to our patients and improve their quality of life from the comfort of their
+                  homes. Our compassionate and reliable staff is trained to help you navigate every medical recovery
+                  successfully. -->
+          </p>
+
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- center part of image  -->
+
+      <div class="service-img">
+        <div class="glowing-circle">
+            <span></span>
+            <span></span>  
+            <div class="image">
+                <img src="images/doctors_img-2.jpg">
+            </div>
+        </div>
+    </div>
+
+      <!-- right side the contetn  -->
+      <div class="choose-right--div text-align--left">
+
+        <div class="why-choose--div">
+          <p class="common-text--highlight">4</p>
+          <h3 class="section-common--title">Meditation Services</h3>
+          <p>
+            Some research suggests that meditation and mindfulness practices may affect the functioning or structure of
+            the brain.
+            <!-- Studies have used various methods of measuring brain activity to look for measurable differences
+                  in the brains of people engaged in mindfulness-based practices. -->
+            <!-- Other studies have theorized that training
+                  in meditation and mindfulness practices can change brain activity. However, the results of these studies are
+                  difficult to interpret, and the practical implications are not clear. -->
+          </p>
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+        <div class="why-choose--div text-align--left">
+          <p class="common-text--highlight">5</p>
+          <h3 class="section-common--title">Health Insurance Coverage</h3>
+          <p>
+            Private hospitals often work closely with various health insurance providers. They accept a wide range of
+            health insurance plans, making healthcare more accessible and affordable for patients.
+            <!-- This means that
+                  individuals with insurance coverage can receive health services at these hospitals with reduced
+                  out-of-pocket expenses, ensuring financial support for their health care needs. -->
+          </p>
+
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+        <div class="why-choose--div text-align--left">
+          <p class="common-text--highlight">6</p>
+          <h3 class="section-common--title"> Physical Therapy</h3>
+          <p>
+            Private hospitals often provide physio therapy services to help patients recover from injuries, surgeries,
+            or health conditions.
+            <!-- physical therapist create personalized rehabilitation plans that include exercises and
+                  treatments to improve mobility, reduce pain, and enhance the patient’s overall body function. These services
+                  aid in the recovery process and contribute to patients regaining their independence and quality of life. -->
+          </p>
+
+          <div class="service-btn">
+            <a href="#" class="btn1 btn-white">Read More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- _____________________________________________________ 
+                    Our Deparment Section 
+        ______________________________________________________ -->
+  <section class="department" id="department">
+    <div class="container">
+      <h2 class="section-common-heading">Our Departments</h2>
+      <p class="section-common-subheading">
+        Experienced in multiple medical services.
+      </p>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- next slidder -->
+          <div class="carousel-item active">
+            <div class="slidder-content">
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-user-doctor"></i>
+                  <h1>Cardiology</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-brain"></i>
+                  <h1>Neurology</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-briefcase-medical"></i>
+                  <h1>Primary Care Doctor</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <!-- next slidder -->
+          <div class="carousel-item">
+            <div class="slidder-content">
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-syringe"></i>
+                  <h1>Pharmacy</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-x-ray"></i>
+                  <h1>Radiology</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                  <h1>Intensive Care Unit(ICU)</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <!-- next slidder -->
+
+          <div class="carousel-item">
+            <div class="slidder-content">
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-hospital"></i>
+                  <h1>Emergency Department</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-microscope"></i>
+                  <h1>Laboratory</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class=" swiper-slide">
+                <div class="icon-images">
+                  <i class="fa-solid fa-eye"></i>
+                  <h1>Ophthalmology</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard</p>
+                  <div class="home-btn">
+                    <a href="#" class="btn1 btn-white">Know More</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <style>
+          
+        </style>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- _____________________________________________________ 
+                    Our Doctors Section 
+        ______________________________________________________ -->
+  <section class="doctor-section" id="doctor-section">
+    <div class="container">
+      <h2 class="section-common-heading">Our Doctors</h2>
+      <p class="section-common-subheading">
+        Meet our specialites
+      </p>
+
+    </div>
+
+    <div class="doctors-profile">
+      <div class="doctor-box">
+        <div class="doctors-image">
+          <img src="images/doctors_img-1.jpg" alt="Doctors image">
+        </div>
+        <div class="doctor-content">
+          <h3>Doctor 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sint illum error pariatur sed
+            eius?</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="doctor-box">
+        <div class="doctors-image">
+          <img src="images/doctors_img-2.jpg" alt="Doctors image" >
+        </div>
+        <div class="doctor-content">
+          <h3>Doctor 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sint illum error pariatur sed
+            eius?</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="doctor-box">
+        <div class="doctors-image">
+          <img src="images/do.jpg" alt="Doctors image">
+        </div>
+        <div class="doctor-content">
+          <h3>Doctor 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sint illum error pariatur sed
+            eius?</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="doctors-list">
+      <a href="#" class="btn1 btn-white">View all doctors list</a>
+    </div>
+
+    <div class="hospital-owner grid grid-two--cols">
+      <div class="owner-img">
+        <img src="images/owner.jpg" alt="owner-img">
+      </div>
+
+      <div class="about-owners">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+
+          <h1>Subhash Yadav</h1>
+          <span>Founder & CEO</span>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <!-- _____________________________________________________ 
+                    Our Contact Section
+        ______________________________________________________ -->
+  <div class="section-contact--homepage" id="contact">
+    <div class="container grid grid-two--cols">
+      <div class="contact-content">
+        <h2 class="contact-title">
+
+          <h2 class="contact-title">If you have any questions, concerns, or feedback, please feel free to reach out to
+            us.
+            We value your input and look forward to hearing from you.</h2>
+          <p>The best medicine and the best treatment you can get.</p>
+
+          <div class="btn1">
+            <a href="contact.html">
+              Click Here to Contact<i class="fa-solid fa-arrow-circle-right"></i>
+            </a>
+          </div>
+      </div>
+      <div class="contact-image">
+        <img src="images/surgery.jpg" alt="surgery">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- _____________________________________________________ 
+                    Our Footer Section 
+        ______________________________________________________ -->
+
+  <footer>
+    <div class="container grid grid-four--cols">
+      <div class="footer-1--div">
+        <div class="logo-brand">
+          <img src="images/logo.png" alt="">
+          <p>Medicare</p>
+        </div>
+        <p>The best medicine and the best treatment you can get.</p>
+
+        <!--****** Our Social Media Link **********-->
+
+        <div class="social-footer--icons">
+          <a href="#" target="_blank" alt="Facebook Page link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="#" target="_blank" alt=" youtube channel link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+          <a href="#" target="_blank" alt="my instagram link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-2--div">
+        <p class="footer-subheading"> Quick Links</p>
+        <ul>
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="index.html"> About Us </a> </li>
+          <li> <a href="index.html"> Services </a> </li>
+          <li> <a href="index.html"> Departments </a> </li>
+          <li> <a href="index.html"> Doctors </a> </li>
+        </ul>
+
+      </div>
+
+
+
+
+      <div class="footer-3--div">
+        <p class="footer-subheading"> Address </p>
+        <span>medicare head office
+          Gwarko-3, lalitpur
+          Nepal</span>
+
+      </div>
+
+      <div class="footer-4--div">
+        <!-- <p class="footer-subheading"> Doctors </p> -->
+        <ul>
+          <li> <a href="#"> Legal</a> </li>
+          <li> <a href="#"> Terms </a> </li>
+          <li> <a href="#"> Conditions </a> </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!--_________________ javascript cdn link__________________ -->
+  <!--_____________ bootstrap link__________ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

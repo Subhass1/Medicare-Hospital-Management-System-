@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Section</title>
+
+  <!--__________________Link adding_______________________--->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!--_____________________________________________________ 
+                    Our Header Sectionn
+        ______________________________________________________ -->
+
+  <header class="section-navbar">
+    <div class="container">
+
+      <div class="navbar">
+        <a href="index.html">
+          <img src="./images/logo.png" alt="Medicare" /> </a>
+        <span>Medicare.</span>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html"> services </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="departments.html"> Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctors.html"> Doctors</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="contact.html"> contact </a> -->
+            <!-- section-contact--homepage -->
+            <a class="nav-link" href="#section-contact--homepage"> contact </a>
+
+          </li>
+        </ul>
+      </nav>
+
+      <div class="home-btn">
+        <a href="#" class="btn1 btn-white">Sign In</a>
+        <a href="#" class="btn1 btn-white">Login In</a>
+      </div>
+
+    </div>
+    </div>
+  </header>
+
+  <!-- _____________________________________________________ 
+                    Our Contact Further Design Section 
+        ______________________________________________________ -->
+
+  <div class="section-contact">
+    <div class="container">
+      <h2 class="section-common-heading">Contact Us</h2>
+      <p class="section-common-subheading">
+        Get in touch with us. We are always here to help you.
+      </p>
+    </div>
+
+    <div class="container grid grid-two--cols">
+      <div class="contact-content">
+        <form action="https://formspree.io/f/xyyqbjej" method="POST">
+          <div class="grid grid-two--cols mb-3">
+            <div>
+              <label for="username">username</label>
+              <input type="text" name="username" id="username" required autocomplete="off"
+                placeholder="enter your name" />
+            </div>
+
+            <div>
+              <label for="email">enter your email</label>
+              <input type="email" name="email" id="email" autocomplete="off" required placeholder="abc@gmail.com" />
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="subject">subject</label>
+            <input type="text" name="subject" id="subject" placeholder="your main title" />
+          </div>
+
+          <div class="mb-3">
+            <label for="message">message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message"></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="btn1 btn-submit">send message</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-map">
+        <!-- <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711144073!2d73.78056582336797!3d18.524598599672156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1696220815737!5m2!1sen!2sin"
+          width="100%" height="500px" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>  -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56516.27776845179!2d85.28493294943873!3d27.709030241905573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1720059260730!5m2!1sen!2snp"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- _____________________________________________________ 
+                    Our Footer Section 
+        ______________________________________________________ -->
+
+  <footer>
+    <div class="container grid grid-four--cols">
+      <div class="footer-1--div">
+        <div class="logo-brand">
+          <img src="images/logo.png" alt="">
+          <p>Medicare</p>
+        </div>
+        <p>The best medicine and the best treatment you can get.</p>
+
+        <!--****** Our Social Media Link **********-->
+
+        <div class="social-footer--icons">
+          <a href="#" target="_blank" alt="Facebook Page link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="#" target="_blank" alt=" youtube channel link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+          <a href="#" target="_blank" alt="my instagram link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-2--div">
+        <p class="footer-subheading"> Quick Links</p>
+        <ul>
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="index.html"> About Us </a> </li>
+          <li> <a href="index.html"> Services </a> </li>
+          <li> <a href="index.html"> Departments </a> </li>
+          <li> <a href="index.html"> Doctors </a> </li>
+        </ul>
+
+      </div>
+
+
+
+
+      <div class="footer-3--div">
+        <p class="footer-subheading"> Address </p>
+        <span>medicare head office
+          Gwarko-3, lalitpur
+          Nepal</span>
+
+      </div>
+
+      <div class="footer-4--div">
+        <!-- <p class="footer-subheading"> Doctors </p> -->
+        <ul>
+          <li> <a href="#"> Legal</a> </li>
+          <li> <a href="#"> Terms </a> </li>
+          <li> <a href="#"> Conditions </a> </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- _____________________________________________________ 
+                    Our Footer Section End
+        ______________________________________________________ -->
+
+
+</body>
+
+</html>
